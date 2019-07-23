@@ -1,2 +1,0 @@
-# OnepieceTower
-index.html
