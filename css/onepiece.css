@@ -1,0 +1,75 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     font-size: 0.85em;
+     font-weight: bold;
+     font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+ }
+
+#div_left{
+	background-color: lightslategray;
+	width:50%;
+	height:100%; 	
+	position: fixed;
+	background-image: url("../img/foreign_parts_left.png");
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#div_right{
+	background-color: lightgrey;
+	/* 0718的
+	position: absolute;
+	right: 0; */
+
+	/* 0719的 */
+	margin-left: 50%;
+	text-align: center;
+}
+
+#div_allconect
+{
+	padding:50px 50px 50px 50px;
+	background-image: url("../img/bg_dot.jpg");
+}
+
+.div_conect
+{
+	text-align: left;
+}
+
+.memo
+{
+	font-size: 1em;
+}
+
+#table_train
+{
+	width:100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#table_train td
+{
+	border: 1px solid lightsteelblue;
+	padding: 10px;
+}
+
+#table_train th
+{
+	background-color:lightsalmon; 
+	border: 1px solid lightslategray;
+	padding: 10px;
+}
+
+#div_copyright
+{
+	text-align: left;
+	padding: 50px 50px 50px 50px;
+}
+
+
+
+
